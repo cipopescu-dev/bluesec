@@ -7,3 +7,4 @@ This training will teach you how to identify, exploit and defend, against the mo
 ### [➡️ CSRF (Cross Site Request Forgery)](./CSRF-cross-site-request-forgery.md)
 ### [➡️ Open Redirect](./open-redirect.md)
 ### [➡️ IDOR (Insecure Direct Object Reference)](./IDOR-insecure-direct-object-reference.md)
+### [➡️ SSRF (Server Side Request Forgery)](./SSRF-server-side-request-forgery.md)
