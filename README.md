@@ -8,3 +8,4 @@ This training will teach you how to identify, exploit and defend, against the mo
 ### [➡️ Open Redirect](./open-redirect.md)
 ### [➡️ IDOR (Insecure Direct Object Reference)](./IDOR-insecure-direct-object-reference.md)
 ### [➡️ SSRF (Server Side Request Forgery)](./SSRF-server-side-request-forgery.md)
+### [➡️ XXE (XML External Entity)](./XXE-xml-external-entity.md)
