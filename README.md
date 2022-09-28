@@ -6,5 +6,7 @@ This training will teach you how to identify, exploit and defend, against the mo
 ---
 ## [➡️ SQLi (SQL injection)](./SQLi-sql-injection.md)
 ---
-## [➡️ CORS (cross-origin resource sharing)](./CORS-cross-origin-resource-sharing.md)
+## [➡️ CORS (Cross-Origin Resource Sharing)](./CORS-cross-origin-resource-sharing.md)
+---
+## [➡️ CSRF (Cross Site Request Forgery)](./CORS-cross-origin-resource-sharing.md)
 ---
