@@ -10,6 +10,12 @@ Cross-site scripting (XSS) is a client-side code injection attack that allows an
 ### XSS types:
 * Reflected XSS - Exploitable through the malicious link/form. Example: `/endpoint?param=<svg/onload=alert( 💣 )>`
 * Persistent/Stored XSS - The vector is stored in DB/file/entity and can be reached directly through the app functionality. Example: `/profile?id=1337` can render XSS from the user’s bio (if XSS is stored in DB before)
+## Remediation description:
+* Encoding the values
+* Input validation
+* Strict security headers:
+  * Content Security Policy (CSP)
+  * Set-Cookie HttpOnly
 ## Vulnerable code:
 ```python
 @app.route("/home", methods=['POST'])
@@ -27,12 +33,6 @@ def home():
 ## Steps to reproduce the vulnerability:
 Simply sending/storing malicios code when submiting the document. That way, the `xss`  value will be replaced with malicious JS code:
 ![xss](./img/XSS0.png)
-## Remediation description:
-* Encoding the values
-* Input validation
-* Strict security headers:
-  * Content Security Policy (CSP)
-  * Set-Cookie HttpOnly
 ## Remediation code:
 Via encoding:
 ```python
