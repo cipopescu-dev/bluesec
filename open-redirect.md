@@ -40,6 +40,7 @@ def redirector():
 ```
 ## Steps to reproduce the vulnerability:
 If we URL encode the dot, the application is smart enough to decode it and recognise it in the URL, blocking us again. We can verify it just using `http://127.0.0.1:5000/redirect?newurl=https:google%E3%80%82com`
+![or0](./img/or0.png)
 ## Remediation description:
 * Simply avoid using redirects and forwards.
 * If used, do not allow the url as user input for the destination. This can usually be done. In this case, you should have a method to validate URL.
@@ -64,3 +65,4 @@ def redirector():
         return redirect(landing_page, 302)
     return render_template("index.html", content = "Nice try!")
 ```
+![or1](./img/or1.png)
