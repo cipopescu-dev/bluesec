@@ -8,5 +8,5 @@ This training will teach you how to identify, exploit and defend, against the mo
 ---
 ## [➡️ CORS (Cross-Origin Resource Sharing)](./CORS-cross-origin-resource-sharing.md)
 ---
-## [➡️ CSRF (Cross Site Request Forgery)](./CORS-cross-origin-resource-sharing.md)
+## [➡️ CSRF (Cross Site Request Forgery)](./CSRF-cross-site-request-forgery.md)
 ---
