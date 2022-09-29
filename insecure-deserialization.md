@@ -39,4 +39,4 @@ We can see it launched the subprocess and executed the `whoami` command and disp
 * Restricting or monitoring incoming and outgoing network connectivity from containers or servers that de-serialize.
 * Monitoring deserialization, alerting if a user de-serializes constantly
 ## Remediation code: 
-You can check the [OWASP Insecure Deserialization CheatSheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Deserialization_Cheat_Sheet.md)
+You can check the [OWASP Insecure Deserialization CheatSheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Deserialization_Cheat_Sheet.md).
