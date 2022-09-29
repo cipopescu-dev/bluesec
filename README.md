@@ -12,3 +12,4 @@ This training will teach you how to identify, exploit and defend, against the mo
 ### [➡️ SSTI (Server Side Template Injection)](./SSTI-server-side-template-injection.md)
 ### [➡️ CSTI (Client Side Template Injection)](./CSTI-client-side-template-injection.md)
 ### [➡️ Insecure Deserialization](./insecure-deserialization.md)
+### [➡️ LFI/RFI (Local/Remote File Inclusion)](./LFI-RFI-local-remote-file-inclusion.md)
