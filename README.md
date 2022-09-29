@@ -11,3 +11,4 @@ This training will teach you how to identify, exploit and defend, against the mo
 ### [➡️ XXE (XML External Entity)](./XXE-xml-external-entity.md)
 ### [➡️ SSTI (Server Side Template Injection)](./SSTI-server-side-template-injection.md)
 ### [➡️ CSTI (Client Side Template Injection)](./CSTI-client-side-template-injection.md)
+### [➡️ Insecure Deserialization](./insecure-deserialization.md)
