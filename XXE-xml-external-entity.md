@@ -53,7 +53,7 @@ factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true)
 factory.setFeature("http://javax.xml.XMLConstants/feature/secure-processing", true);
 // ( equivalent: factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
 ```
-For python, you can use `DefusedXML`:
+For python, you can use [`DefusedXML`](https://pypi.org/project/defusedxml/):
 ```python
 from xml.etree.ElementTree import parse
 et = parse(xmlfile) # don't! ❌ ❌ ❌
